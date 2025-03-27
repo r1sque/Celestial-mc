@@ -22,6 +22,11 @@ Celestial Modpack is a vanilla-friendly Minecraft modpack designed to enhance th
 - [x] Make Gallery smooth
 - [x] Add title
 - [ ] Add icon
+- [ ] Add stuff from the discord message to the website (e.i, text , server ip and other stuff)
+- [ ] Add animations to the featured card when you scroll to them
+- [ ] Add bg to the download section to make it less bland
+- [ ] Add icon add a footer
+- [ ] fix all text to Celestial and cards text on the second section
 
 ### Navigation
 
