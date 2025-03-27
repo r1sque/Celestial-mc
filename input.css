@@ -70,3 +70,20 @@ body::-webkit-scrollbar-thumb {
     scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
   }
 }
+
+.feature-card {
+  border: 1px solid transparent;
+  transition: border 0.5s ease, box-shadow 0.5s ease;
+}
+
+.feature-card:hover {
+  border: 1px solid rgba(255, 255, 255, 0.6); /* Soft white border */
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.3); /* White glow */
+}
+
+/* Feature button with subtle hover scaling */
+.feature-button {
+  transition: transform 0.5s ease;
+}
+
+

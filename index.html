@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
+    <title>Celestial Modpack</title>
 </head>
 
 <body class="bg-black">
@@ -160,11 +161,11 @@
     </section>
 
     <section
-        class="h-screen flex flex-col items-center justify-center space-y-10 bg-black/70 text-white p-20 overflow-hidden relative">
+        class="h-screen flex flex-col items-center justify-center space-y-10 bg-black/70 p-20 overflow-hidden relative">
         <h1 class="text-4xl font-bold">Gallery</h1>
 
         <div id="gallery"
-            class="flex space-x-4 overflow-x-auto scrollbar snap-x snap-mandatory scroll-smooth w-full px-10 py-2">
+            class="flex space-x-4 overflow-x-auto scrollbar snap-x snap-mandatory scroll-smooth w-[80%] px-10 py-2">
 
             <div class="flex-shrink-0 w-[50vw]"></div>
 
@@ -203,7 +204,7 @@
         </div>
 
         <button id="prev"
-            class="absolute left-5 top-1/2 -translate-y-1/2 bg-white/10 p-3 rounded-full hover:bg-white/20">
+            class="absolute left-30 top-1/2 -translate-y-1/2 bg-white/10 p-3 rounded-full hover:bg-white/20">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -212,7 +213,7 @@
         </button>
 
         <button id="next"
-            class="absolute right-5 top-1/2 -translate-y-1/2 bg-white/10 p-3 rounded-full hover:bg-white/20">
+            class="absolute right-30 top-1/2 -translate-y-1/2 bg-white/10 p-3 rounded-full hover:bg-white/20">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -221,8 +222,83 @@
         </button>
     </section>
 
-    <section class="h-screen flex items-center justify-center bg-black/90 text-white">
-        <h1 class="text-4xl font-bold">download</h1>
+    <section class="h-screen flex flex-col items-center justify-center space-y-20 bg-black/80 p-6">
+    
+        <h1 class="text-4xl font-bold">ModPack Downloads</h1>
+    
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-6 w-[80%] h-">
+    
+            <div class="bg-[#151517] flex flex-col space-y-6 p-6 rounded-md feature-card">
+    
+                <h1 class="text-2xl font-semibold">Celestial Client ModPack</h1>
+    
+    
+                <ul class="text-lg/8 list-disc pl-6">
+                    <li>Download and install the <a href="https://modrinth.com/app" target="_blank"
+                            class="text-blue-400 transition-colors duration-400 hover:text-blue-300 after:content-['↗']">Modrinth</a>
+                        App.
+                    </li>
+                    <li>Open the app and log in with a Minecraft account.</li>
+                    <li>Click on the "+" button labeled "Create Instance" in the very left panel.</li>
+                    <li>Select "From Files."</li>
+                    <li>Choose the downloaded `.mrpack` file from the link below.</li>
+                    <li>The modpack will be installed automatically.</li>
+                    <li>Launch the game from Modrinth and join the server.</li>
+                </ul>
+    
+    
+                <a href="https://drive.google.com/file/d/1EAi6TA1qEQ1_ZwvQcCUGmwEZFXRCi_7a/view?usp=sharing"
+                    target="_blank">
+                    <button
+                        class="w-full py-2 capitalize bg-white/10 rounded cursor-pointer transition-colors duration-400 hover:bg-white/20">
+                        Download
+                    </button>
+                </a>
+    
+                <a href="https://drive.google.com/drive/folders/1dDRnuS5j_3x0U72zQDYhbsz6QMnrvIXL?usp=sharing"
+                    target="_blank"
+                    class="font-light text-blue-400 transition-colors duration-400 hover:text-blue-300 after:content-['↗'] mx-auto">
+                    Want to download older version of the ModPack? Click here.
+                </a>
+    
+            </div>
+    
+    
+            <div class="bg-[#151517] flex flex-col space-y-6 p-6 rounded-md feature-card">
+    
+                <h1 class="text-2xl font-semibold">Celestial Server ModPack</h1>
+    
+                <ul class="text-lg/8 list-disc pl-6">
+                    <li>Download and install the <a href="https://fabricmc.net/use/server/" target="_blank"
+                            class="text-blue-400 transition-colors duration-400 hover:text-blue-300 after:content-['↗']">
+                            Fabric mc Server</a>
+                        for minecraft 1.21.1.
+                    </li>
+                    <li>Run the installer and complete the server installation process.</li>
+                    <li>After installation, import the server modpack into Modrinth.</li>
+                    <li>Navigate to the root directory of the Modrinth server profile.</li>
+                    <li>Copy the Mods, Config, and Script folders into your Mc server directory.</li>
+                    <li>Set up the server and configure the mods as needed.</li>
+                    <li>Start the server and connect to it to begin playing.</li>
+                </ul>
+    
+                <a href="https://drive.google.com/file/d/1Dek5skWgv0yzIJwuR4ivSWb32ZM1lJL4/view?usp=sharing"
+                    target="_blank">
+                    <button
+                        class="w-full py-2 capitalize bg-white/10 rounded cursor-pointer transition-colors duration-400 hover:bg-white/20">
+                        Download
+                    </button>
+                </a>
+    
+                <a href="https://drive.google.com/drive/folders/1dDRnuS5j_3x0U72zQDYhbsz6QMnrvIXL?usp=sharing"
+                    target="_blank"
+                    class="font-light text-blue-400 transition-colors duration-400 hover:text-blue-300 after:content-['↗'] mx-auto">
+                    Want to download older version of the ModPack? Click here.
+                </a>
+    
+            </div>
+    
+        </div>
     </section>
 
 </body>
