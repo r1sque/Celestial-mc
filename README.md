@@ -2,6 +2,13 @@
 
 Celestial Modpack is a vanilla-friendly Minecraft modpack designed to enhance the gameplay experience while preserving the core essence of Minecraft. It focuses on reimagining existing structures and mechanics, offering quality-of-life improvements, and providing a smoother, more enjoyable adventure.
 
+### Navigation
+
+- **Main**: Overview of the modpack.
+- **Modpack info**: Details about the modpack's goals and features.
+- **Gallery**: Information about tools and utilities included in the modpack.
+- **Download**: Additional resources and information.
+
 ## Features
 
 - **Beautiful Appearance**: A large number of visual features to make your game more colorful and customizable.
@@ -17,23 +24,16 @@ Celestial Modpack is a vanilla-friendly Minecraft modpack designed to enhance th
   - [x] Modpack info section
   - [x] Gallery section
   - [x] Download section (put the intructions on how to import it into modrinth)
-- [ ] Make the header nav bar scroll to the correct section
+- [x] Make the header nav bar scroll to the correct section
 - [x] Make Page scrolling smooth
 - [x] Make Gallery smooth
 - [x] Add title
-- [ ] Add icon
-- [ ] Add stuff from the discord message to the website (e.i, text , server ip and other stuff)
-- [ ] Add animations to the featured card when you scroll to them
-- [ ] Add bg to the download section to make it less bland
-- [ ] Add icon add a footer
-- [ ] fix all text to Celestial and cards text on the second section
-
-### Navigation
-
-- **Main**: Overview of the modpack.
-- **Modpack info**: Details about the modpack's goals and features.
-- **Gallery**: Information about tools and utilities included in the modpack.
-- **Download**: Additional resources and information.
+- [x] Add icon
+- [x] Add stuff from the discord message to the website (e.i, text , server ip and other stuff)
+- [x] Add animations to the featured card when you scroll to them
+- [x] Add bg to the download section to make it less bland
+- [x] Add a footer
+- [x] fix all text to Celestial and cards text on the second section
 
 ## Installation
 
